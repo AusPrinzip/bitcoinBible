@@ -9,6 +9,23 @@ The project supports the following operations:
 3. **SHA256 hashing** of each verse
 4. **SHA256 hashing in reverse** mode (verses processed in reverse order)
 
+## Contributing
+
+We welcome contributions to enhance the functionality of `bitcoinBible`. If you'd like to add new scanning features, here are a few ideas:
+
+- Implement simple encryption methods, such as **Caesar cipher**, before hashing the verse.
+- Add modes to process the verse in **all lowercase** and **all uppercase**.
+- Integrate **Gematria** calculations to uncover hidden meanings.
+
+Feel free to submit pull requests or open issues with ideas and improvements!
+
+The project supports the following operations:
+
+1. **Finding Electrum mnemonics** in each verse
+2. **Finding BIP39 mnemonics** in each verse
+3. **SHA256 hashing** of each verse
+4. **SHA256 hashing in reverse** mode (verses processed in reverse order)
+
 ## Features
 
 - Search for **Electrum** mnemonics in each Bible verse
@@ -99,4 +116,10 @@ The application's behavior can be customized using the `config.json` file locate
   "stopOnFindings": true
 }
 ```
+## Donations
 
+If you find this project useful and would like to support its development, you can donate Bitcoin to the following address:
+
+**Bitcoin Address**: `bc1qpg5qavn00ujhtqxqzt4m0pj3u5v35qdgalsn45`
+
+Thank you for your support!
